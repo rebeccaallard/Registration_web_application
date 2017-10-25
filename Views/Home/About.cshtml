@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+<h4>@ViewBag.Tommy</h4>
+
+
+@{var price = 20;}
+<html>
+<body>
+    @if (price > 30)
+    {
+        <p>The price is too high.</p>
+    }
+    else
+    {
+        <p>The price is OK.</p>
+    }
+</body>
+</html>
+
+@ViewBag.Score
+
+<p>Use this area to provide additional information.</p>
